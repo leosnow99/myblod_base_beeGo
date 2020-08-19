@@ -21,4 +21,5 @@ func init() {
 
 	//文件上传
 	beego.Router("/upload", &controllers.UploadController{})
+	beego.Router("/aboutme", &controllers.AboutMeController{})
 }
